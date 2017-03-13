@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <title>webapp</title>
+  <link rel="stylesheet" href="/vendor/bootstrap4/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+   <link rel="stylesheet" href="/css/index.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body class="body">
+    <div class="col-lg-4 position">
+    </div>
+    <div class="col-lg-4 position">
+      <div class="frame">
+        <div id="title">COIN COUNTER</div>
+        <table  class="frameL1">
+          <tr>
+              <td>
+                <div class="circle1">
+                <input id="cir1" class="c1" type="text" value="" />
+                <div id="mark1"></div>
+                <!-- <div class="mark" id="mark1">1</div> -->
+                </div>
+              </td>
+              <td><div class="circle1"><input id="cir2" class="c1" type="text" value="" />
+                <!-- <div class="mark" id="mark2"></div> -->
+                <div id="mark2"></div>
+                </div>
+              </td>
+          </tr>
+          <tr>
+              <td><div id="c3" class="circle1"><input id="cir3" class="c1" type="text" value="" />
+              <!-- <div class="mark" id="mark3"></div> -->
+              <div id="mark3"></div>
+              </div>
+              </td>
+              <td><div id="c4" class="circle1"><input id="cir4" class="c1" type="label" value="1" readonly>
+              <!-- <div class="mark" id="mark4"></div> -->
+              <div id="mark4"></div>
+              </div>
+              </td>
+          </tr>
+        </table>
+        <div class="frameL1">
+        <div><input type="text" id="input"/></div>
+        <div><input type="button" id="submmit" onclick="calculate()" value="CLCULATE"/></div>        
+        </div>  
+            
+      </div>
+    </div>
+    <div class="col-lg-4 position">
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
