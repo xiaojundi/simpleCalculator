@@ -27,7 +27,7 @@ function calculate() {
 	var i = 0;
 	console.log(arr)
 	while (i <= 3) {
-		if (arr[i] != NaN && result >= arr[i])
+		if (arr[i] != NaN && arr[i] != 0)
 			while (Math.floor(result / arr[i]) > 0) {
 				map[i] = Math.floor(result / arr[i]);
 				result = result % arr[i];
